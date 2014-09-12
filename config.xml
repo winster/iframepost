@@ -8,6 +8,5 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
-    <gap:plugin name="org.apache.cordova.console" />
     <access origin="*" />
 </widget>
