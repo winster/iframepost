@@ -1,5 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.test" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.test" version="0.0.1" 
+	xmlns="http://www.w3.org/ns/widgets" 
+	xmlns:gap="http://phonegap.com/ns/1.0">
+	
     <name>IFramePost</name>
     <description>
         A sample Apache Cordova application that responds to the deviceready event.
@@ -8,5 +11,6 @@
         Apache Cordova Team
     </author>
     <content src="index.html" />
+    <gap:plugin name="org.apache.cordova.console" version="0.2.7" />
     <access origin="*" />
 </widget>
